@@ -170,7 +170,13 @@ todo-node-aws/
 
 ---
 
-## 🧠 What You'll Learn
+> **Note:** This project was deployed to AWS for demonstration and then torn down
+> to avoid ongoing costs. The infrastructure is fully reproducible with `terraform apply`.
+> Screenshots of the live deployment are in `docs/screenshots/`.
+
+---
+
+## 🧠 What I Have Learnt
 
 `Infrastructure as Code` · `Docker` · `CI/CD` · `ECS Fargate` · `ECR` · `OIDC auth` · `IAM least privilege` · `ALB networking` · `CloudWatch logging`
 
