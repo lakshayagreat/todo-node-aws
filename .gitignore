@@ -6,7 +6,13 @@
 crash.log
 override.tf
 override.tf.json
+*.tfvars.backup
+*.tfvars.json
+crash.*.log
 
+# Local Terraform overrides
+*_override.tf
+*_override.tf.json
 
 # Environment variables and secrets
 .env
