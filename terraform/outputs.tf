@@ -74,3 +74,18 @@ output "cloudwatch_log_group" {
   description = "CloudWatch log group name"
   value       = aws_cloudwatch_log_group.app.name
 }
+
+output "alb_dns_name" {
+  description = "Public DNS name of the ALB"
+  value       = aws_lb.main.dns_name
+}
+
+output "alb_zone_id" {
+  description = "Zone ID of the ALB"
+  value       = aws_lb.main.zone_id
+}
+
+output "target_group_arn" {
+  description = "ARN of the ALB target group"
+  value       = aws_lb_target_group.app.arn
+}
