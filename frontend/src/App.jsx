@@ -108,7 +108,7 @@ function useTheme() {
 function greeting() {
   const h = new Date().getHours();
   if (h < 5) return "up late?";
-  if (h < 12) return "gm";
+  if (h < 12) return "mornin";
   if (h < 18) return "hey";
   return "evening";
 }
